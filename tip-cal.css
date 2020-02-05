@@ -15,5 +15,29 @@ body{
 }
 .app{
     position: relative;
+    width:100%;
+    max-width: 320px;
+    background: #fff;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
     
+    
+}
+.app::after {
+    content:'';
+    display:block;
+    padding-top: calc(100% /(3/4));
+}
+.calculator{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 100%;
+    overflow-y: hidden;
+    flex-direction: column;
 }
