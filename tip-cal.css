@@ -41,3 +41,16 @@ body{
     overflow-y: hidden;
     flex-direction: column;
 }
+header{
+    background: rgb(50, 211, 128);
+    padding: 10px 15px;
+    box-shadow: 0px 3px 10px rgba(0, 0 ,0, 0.2);
+
+}
+h1{
+    color:#fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    text-align:center;
+
+}
